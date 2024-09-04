@@ -4,8 +4,8 @@ const ContactForm = () => {
   return (
     <form className='bg-[#fff] w-[80%] sm:w-[90%] mx-auto py-16 sm:py-10 px-14 sm:px-3'>
         <div>
-            <h2 className='text-center font-medium text-4xl'>Get in touch</h2>
-            <p className='text-center mb-16 font-normal'>Fill out the form below, and our team will get back to you as soon as possible.</p>
+            <h2 className='text-center font-medium sm:text-xl text-4xl'>Get in touch</h2>
+            <p className='text-center mb-16 text-[#000000b3] sm:text-sm font-normal'>Fill out the form below, and our team will get back to you as soon as possible.</p>
         </div>
     <div className='w-full flex gap-4 md:flex-col justify-between mb-12 sm:mb-[16px]'>
       <input type="text"  style={{border: '1px solid #0000004d'}} className='w-[45%] md:w-[100%] h-[60px] pl-6 rounded-[10px] focus:outline-none' placeholder='First Name' />

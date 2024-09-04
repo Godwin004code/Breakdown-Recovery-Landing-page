@@ -31,10 +31,11 @@ const Support = () => {
     };
 
     return (
+
         <div className='w-full my-20'>
-            <h2 className='bg-[#6869ff1f] w-fit px-4 py-1 rounded-[20px]  mx-auto'>Support</h2>
-            <h2 className='text-center font-medium text-4xl my-2'>FAQs</h2>
-            <h2 className='text-center text-[#000000b3] font-normal'>Have a question and don’t see an answer below? Feel free to reach out to <br /> us at <span className='text-[#6869ff]'>contact@breakdownassistance.com</span></h2>
+            <h2 className='bg-[#6869ff1f] w-fit px-4 py-1 sm:text-sm rounded-[20px]  mx-auto'>Support</h2>
+            <h2 className='text-center font-medium text-4xl sm:text-xl my-2'>FAQs</h2>
+            <h2 className='text-center sm:w-[80%] sm:mx-auto text-[#000000b3] font-normal'>Have a question and don’t see an answer below? Feel free to reach out to <br /> us at <span className='text-[#6869ff]'>contact@breakdownassistance.com</span></h2>
             <div className="accordion">
       {data.map((item, index) => (
         <div key={index} className="accordion-item">

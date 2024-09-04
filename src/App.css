@@ -14,13 +14,15 @@ margin-top: 3rem;
 .accordion-item {
  margin-bottom: 20px;
  background-color: white;
+ border-radius: 10px;
 }
 
 .accordion-header {
   background-color: #fff;
   padding: 30px 25px;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 10px;
+
 }
 
 .accordion-header h3 {
@@ -38,4 +40,21 @@ margin-top: 3rem;
 .accordion-content.open {
   max-height: 100px; /* Adjust as needed */
   padding: 20px;
+}
+
+
+
+header {
+  border: '1px solid #0000001a'
+}
+@media only screen and (max-width: 640px) {
+  header {
+    border: 0;
+  }
+  .accordion {
+    width: 90%;
+  }
+  .accordion-header{
+    padding: 20px ;
+  }
 }
