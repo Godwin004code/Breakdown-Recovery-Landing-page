@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
         </div>
       </section>
-      <div className='my-auto  w-[90%] mx-auto my-10 sm:flex justify-between hidden'>
+      <div className='  w-[90%] mx-auto my-10 sm:flex justify-between hidden'>
   <ul className='flex flex-col gap-8'>
     <li>
       <Link to="/" className={  "text-[#000000cc] font-medium text-base"}>Home</Link>
