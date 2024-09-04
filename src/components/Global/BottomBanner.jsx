@@ -14,9 +14,9 @@ const BottomBanner = ({img}) => {
         <section>
             <img src={img} className='h-[577px] sm:h-[292px]' alt="Banner image" />
         </section>
-        <div className='bg-[#fff] z-40 mt-10 p-2 hidden w-full sm:flex   rounded-xl' style={{border: '1px solid #0000000d'}}>
+        <div className='bg-[#fff] z-40 mt-10 p-2 hidden w-full sm:flex sm:flex-col   rounded-xl' style={{border: '1px solid #0000000d'}}>
 <input type="email" className='h-[49px] pl-4 pr-36 sm:pr-0 focus:outline-none bg-transparent' placeholder='Your email'  />
-<button className='bg-[#6869ff] text-white my-auto text-sm font-normal h-[49px] px-5 rounded-xl'>Join waitlist</button>
+<button className='bg-[#6869ff] text-white sm:w-fit sm:mx-auto my-auto text-sm font-normal h-[49px] px-5 rounded-xl'>Join waitlist</button>
             </div>
     </div>
   )
