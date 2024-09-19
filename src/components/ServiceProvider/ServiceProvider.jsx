@@ -5,8 +5,9 @@ import SPHero from './SPHero'
 import SPBenefits from './SPBenefits'
 import How from './How'
 import Support from './Support'
-import SPBottomBanner from './SPBanner'
+import SPBanner from './SPBanner'
 import img from "../../Assets/iPhone 15 Pro Portrait Mockup (2).png"
+
 
 const ServiceProvider = () => {
   return (
@@ -16,7 +17,8 @@ const ServiceProvider = () => {
     <SPBenefits />
     <How />
     <Support />
-    <SPBottomBanner img={img} />
+    <SPBanner img={img} />
+  
     <Footer />
     </section>
   )

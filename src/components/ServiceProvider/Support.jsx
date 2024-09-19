@@ -43,7 +43,7 @@ const Support = () => {
             className="accordion-header flex justify-between"
             onClick={() => toggleAccordion(index)}
           >
-            <h3>{item.title}</h3>
+            <h3 className='sm:text-sm'>{item.title}</h3>
             <div className='my-auto'>
                 {activeIndex === index ? <FaChevronUp /> :  <FaChevronDown />}
             </div>
