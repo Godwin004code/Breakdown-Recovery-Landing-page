@@ -6,6 +6,28 @@ import ContactForm from './ContactForm'
 import Support from "../ServiceProvider/Support"
 
 const Contact = () => {
+  const data = [
+    {
+        title: "What types of services are available?",
+        des: "We offer a wide range of services including towing, tire changes, jump-starts, fuel delivery, and lockout assistance."
+    },
+    {
+        title: "How long will it take for help to arrive?",
+        des: "Response times vary depending on your location and traffic conditions, but we prioritize getting help to you as quickly as possible. You can track your provider in real-time via the app."
+    },
+    {
+        title: "Can I pay through the app?",
+        des: "Absolutely! You can securely pay for services through the app using a credit card, debit card, or digital wallet like Apple Pay or Google Pay."
+    },
+    {
+        title: "Can I schedule a service in advance?",
+        des: 'Currently, our services are designed for immediate assistance. Scheduling services in advance is not supported at this time.'
+    },
+    {
+        title: "Are your service providers insured1",
+        des: "Yes, all our service providers are fully insured and vetted to ensure high-quality service and your peace of mind."
+    }
+]
   return (
     <section className='bg-[#F8F8FF] w-full pt-7 h-full'>
     <Nav />
@@ -38,10 +60,11 @@ const Contact = () => {
       
     </section>
     <ContactForm />
-    <Support />
+    <Support data={data} />
     <Footer />
     </section>
   )
 }
+
 
 export default Contact

@@ -1,29 +1,9 @@
 import React, { useState } from 'react'
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
-const Support = () => {
-    const data = [
-        {
-            title: "What types of services are available?",
-            des: "We offer a wide range of services including towing, tire changes, jump-starts, fuel delivery, and lockout assistance."
-        },
-        {
-            title: "How long will it take for help to arrive?",
-            des: "We offer a wide range of services including towing, tire changes, jump-starts, fuel delivery, and lockout assistance."
-        },
-        {
-            title: "Can I pay through the app?",
-            des: "Absolutely! You can securely pay for services through the app using a credit card, debit card, or digital wallet like Apple Pay or Google Pay"
-        },
-        {
-            title: "Are your service providers insured?",
-            des: 'Yes, all our service providers are fully insured and vetted to ensure high-quality service and your peace of mind.'
-        },
-        {
-            title: "Can I schedule a service in advance?",
-            des: "We offer a wide range of services including towing, tire changes, jump-starts, fuel delivery, and lockout assistance."
-        }
-    ]
+const Support = ({data}) => {
+   
+
     const [activeIndex, setActiveIndex] = useState(null);
 
     const toggleAccordion = (index) => {

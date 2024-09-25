@@ -1,8 +1,8 @@
 import React from 'react'
 import img1 from "../../Assets/iPhone 15 Pro Portrait Mockupbr-01 (1).png"
 import img2 from "../../Assets/iPhone 15 Pro Portrait Mockupbr-02.png"
-import img3 from "../../Assets/iPhone 15 Pro Portrait Mockupbr-03.png"
-import img4 from "../../Assets/iPhone 15 Pro Portrait Mockupbr-04.png"
+import img3 from "../../Assets/iPhone 15 Pro Portrait Mockupnew.png"
+import img4 from "../../Assets/iPhone 15 Pro Portrait Mockupnew (1).png"
 
 const Features = () => {
     return (

@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import logo from "../../Assets/Iconlandinf-page (3).png"
+import logo from "../../Assets/Iconlogo (1).png"
 import { Link } from 'react-router-dom'
 import { FaInstagram, FaTwitter , FaFacebook, FaCheck } from 'react-icons/fa'
 import { FaX } from 'react-icons/fa6'

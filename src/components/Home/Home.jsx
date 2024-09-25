@@ -6,11 +6,13 @@ import Features from './Features'
 import zigzag from "../../Assets/Vectorzigzag (1).png"
 import AboutSection from './AboutSection'
 import Steps from './Steps'
+import HeroSection from '../Global/HeroSection'
 
 const Home = () => {
   return (
     <section className='bg-[#F8F8FF] w-full pt-7 h-full'>
       <Nav />
+    
       <Hero />
       <Features />
       <AboutSection />
