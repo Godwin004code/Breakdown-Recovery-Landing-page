@@ -48,7 +48,9 @@ const Hero = () => {
           }`} >
             <img src={heroImg} className='h-full w-full ' alt="Hero image" />
         </div>
-        <div className='md-2:flex mt-5 gap-3 hidden flex-col md-2:justify-between w-full md-2:w-full rounded-xl'>
+        <div className={`md-2:flex mt-5 gap-3 hidden flex-col md-2:justify-between w-full md-2:w-full rounded-xl transition duration-700 ease-in-out  ${
+            animateButton ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+          }`} >
 <input type="email" className='h-[49px] w-full bg-[#F8F8FF] pl-4  focus:outline-none ' placeholder='Your email'  />
 <button className='bg-[#6869ff] text-white w-fit mx-auto my-auto text-sm font-normal h-[49px] px-5 rounded-xl'>Join waitlist</button>
             </div>
